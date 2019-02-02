@@ -1,0 +1,37 @@
+Tutorial Tools
+
+Download the following:
+- openjdk 11.0.2 from https://jdk.java.net/11/ . Under "Builds" select based on your OS.
+  - Once downloaded, unzip the folder.
+  -	Move the jdk-11.0.2 folder to C:\Program Files\Java
+- apache netbeans 9 from https://netbeans.apache.org/download/nb90/nb90.html . Ensure you download the binary.
+  - Once downloaded, unzip.
+  - In the netbeans folder, navigate to the bin folder. You should see netbeans64.exe. DO NOT OPEN!
+  
+  
+Environment Variables
+- Navigate to your enviroment variables. Find it using the search feature on Windows.
+  - Once there, click Environment Variables.
+  - Under System Variables, click New.
+  - Enter the name as JAVA_HOME.
+  - For the value, click browse directory and navigate to C:\Program Files\Java\jdk-11.0.2
+  - Click OK.
+  - Under System Variables
+    - Select Path
+	- Click Edit
+	- Add ;%JAVA_HOME%\bin at the end of the string
+  - Click OK
+  
+Testing Java Installation
+- Open Command Prompt or PowerShell
+- Type java -version, press enter. You will see details of the java version installed. 
+
+Running Apache Netbeans
+- Navigate to the netbeans64.exe file and open it.
+
+Resources
+- https://www.javatpoint.com/java-oops-concepts - read this first
+- https://www.tutorialspoint.com/java/ - 5/10
+- https://www.javatpoint.com/java-tutorial - 7/10
+
+YOU ARE ALL DONE.
