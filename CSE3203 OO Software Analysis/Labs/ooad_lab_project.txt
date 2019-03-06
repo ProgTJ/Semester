@@ -1,0 +1,19 @@
+LAB PROJECT
+
+In groups of five (5), implement the solution proposed in the assignment below.
+Due Date: Tuesday, April 23rd 
+
+"1. A description of the problem and the proposed solution with the necessary functionalities/requirements.
+2. Domain model (no need to include characteristics or behaviour, but must include relationships and multiplicity (aka cardinality in ERD)), 
+3. Use case diagram(s), and 
+4. At least five fully dressed use cases.
+
+For consistency within the class, you are required to use the UML notation as seen in the course textbook by Larman.
+
+Due: Submit a hardcopy on Monday, March 11th, at 4.15pm." (Vineeta Persaud)
+
+LAB PROJECT WALKTHROUGH
+
+Starting this week I will walk the class through the development of a small lab project.
+We will cover MVC, JavaFX, JDBC, ORMs and PlantUML.
+You can use the techniques and tools from this demo project in your lab project above.
