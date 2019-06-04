@@ -1,0 +1,20 @@
+int factorial (int n)
+{
+	int f = 1;
+	while (n > 0)
+	{
+		f = n*f; 
+		--n;
+	}
+	return f;
+} 
+
+int add (int a, int b)
+{
+	while (b > 0)
+	{
+		a = a + 1;
+		b--;
+	}
+	return a;
+}
